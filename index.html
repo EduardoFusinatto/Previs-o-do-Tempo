@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Previsão do Tempo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+  <main>
+    <div class="container">
+      <div class="termometro">
+        <img src="./termometro frio.png" alt="Frio">
+        <img src="./termometro quente.png" alt="Quente">
+        <div>
+          <h1>Weather <br>Today</h1>
+        </div>
+      </div>
+      <form>
+        <input type="text" class="cidade" placeholder="Digite a cidade">
+        <div class="erro">Por favor, digite uma cidade válida.</div>
+        <button class="btn">Pesquisar</button>
+      </form>
+      <h1 class="resultadotemp"></h1>
+      <span class="info"></span>
+      <span class="resultadocidade"></span>
+      <div class="localidade">
+        <span class="estado"></span>
+        <span class="pais"></span>
+      </div>
+    </div>
+  </main>
+
+</body>
+<script src="script.js"></script>
+
+</html>
